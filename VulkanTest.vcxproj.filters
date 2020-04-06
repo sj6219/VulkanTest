@@ -13,10 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{9f0f4096-69b5-4d4b-b6cb-31bd68014427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testures">
+      <UniqueIdentifier>{dd3d2311-09b1-476f-8024-bec4396fb528}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\frag.spv">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\vert.spv">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\texture.jpg">
+      <Filter>testures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
