@@ -67,6 +67,7 @@ StyleCopReport.xml
 *.meta
 *.obj
 !models/*.obj
+shaders/*.spv
 *.iobj
 *.pch
 *.pdb
