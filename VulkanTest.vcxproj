@@ -88,18 +88,18 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.131.2\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.135.0\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.131.2\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.135.0\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
-C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
+      <Command>C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
+C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -108,18 +108,18 @@ C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.131.2\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.135.0\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.131.2\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.135.0\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
-C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
+      <Command>C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
+C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -130,7 +130,7 @@ C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.131.2\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.135.0\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -138,12 +138,12 @@ C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.131.2\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.135.0\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
-C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
+      <Command>C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
+C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -154,7 +154,7 @@ C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.131.2\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;C:\VulkanSDK\1.2.135.0\Include;.\third_party\glm;third_party\glfw-3.3.2.bin.WIN64\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -162,12 +162,12 @@ C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.131.2\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\VulkanSDK\1.2.135.0\Lib;.\third_party\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
-C:\VulkanSDK\1.2.131.2\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
+      <Command>C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.vert -o shaders\vert.spv
+C:\VulkanSDK\1.2.135.0\Bin32\glslc.exe shaders\shader.frag -o shaders\frag.spv</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
